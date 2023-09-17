@@ -1,0 +1,20 @@
+{
+  "name": "popular-games-csv",
+  "version": "1.0.0",
+  "description": "Clean the Popular Video Games CSV",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "lint": "tsc -p ."
+  },
+  "author": "Podter",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "csv": "^6.3.3",
+    "zod": "^3.22.2"
+  }
+}
